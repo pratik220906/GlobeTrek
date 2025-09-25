@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Snaeland Travel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>SNAELAND</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="destinations.html" class="nav-link">Destinations</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="packages.html" class="nav-link">Travel Packages</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+                <div class="language">EN</div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us to plan your perfect Icelandic adventure</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Send us a Message</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select id="gender" name="gender">
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                                <option value="prefer-not-to-say">Prefer not to say</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="country">Country *</label>
+                            <select id="country" name="country" required>
+                                <option value="">Select Country</option>
+                                <option value="us">United States</option>
+                                <option value="uk">United Kingdom</option>
+                                <option value="ca">Canada</option>
+                                <option value="au">Australia</option>
+                                <option value="de">Germany</option>
+                                <option value="fr">France</option>
+                                <option value="jp">Japan</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell us about your dream Iceland adventure..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <h2>Get in Touch</h2>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>pratik10753@gmail.com</p>
+                                <p>dinesh010912@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>(704) 555-0127</p>
+                                <p>Available 9 AM - 6 PM EST</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3>Address</h3>
+                                <p>Sola Bhagvat</p>
+                                <p>Kargil, Ahemdabad 380060</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">
+                                <span>📷</span>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <span>📘</span>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <span>💼</span>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <span>🐦</span>
+                                <span>X/Twitter</span>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <span>📺</span>
+                                <span>YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="office-hours">
+                        <h3>Office Hours</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span>Monday - Friday</span>
+                                <span>9:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Saturday</span>
+                                <span>10:00 AM - 4:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>SNAELAND</h3>
+                    <p>Your gateway to the extraordinary beauty, culture, and exhilarating adventures awaiting in the captivating landscapes of Iceland.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigations</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="destinations.html">Destinations</a></li>
+                            <li><a href="packages.html">Travel Packages</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Contact Us</h4>
+                        <p>travel@snaeland.io</p>
+                        <p>(704) 555-0127</p>
+                        <p>2118 Thornridge Cir. Syracuse, Connecticut 35624</p>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Social</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">Instagram</a>
+                            <a href="#" class="social-link">X</a>
+                            <a href="#" class="social-link">Youtube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy;SNAELAND 2024. All Rights Reserved</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
